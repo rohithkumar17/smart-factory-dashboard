@@ -1,7 +1,7 @@
 // src/components/Filters/ProductionFilters.tsx
 import { Group, Select } from '@mantine/core';
 import { DatePickerInput } from '@mantine/dates'; // Removed DatesRangeValue import for now
-import { IconCalendar } from '@tabler/icons-react';
+// import { IconCalendar } from '@tabler/icons-react';
 import { useTranslation } from 'react-i18next';
 import type { MachineOption } from '../../services/types';
 import { useState } from 'react';
@@ -17,10 +17,10 @@ export function ProductionFilters({ availableMachines }: ProductionFiltersProps)
   // Explicitly define the type for the state
   const [dateRange, setDateRange] = useState<[Date | null, Date | null]>([null, null]);
 
-  // Define the handler separately for clarity
-  const handleDateRangeChange = (value: [Date | null, Date | null]) => {
-    setDateRange(value);
-  };
+  // // Define the handler separately for clarity
+  // const handleDateRangeChange = (value: [Date | null, Date | null]) => {
+  //   setDateRange(value);
+  // };
 
   return (
     <Group>
