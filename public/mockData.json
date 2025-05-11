@@ -1,0 +1,22 @@
+{
+  "dailyProduction": [
+    { "date": "2023-10-01", "name": "Day 1", "count": 120 },
+    { "date": "2023-10-02", "name": "Day 2", "count": 150 },
+    { "date": "2023-10-03", "name": "Day 3", "count": 130 },
+    { "date": "2023-10-04", "name": "Day 4", "count": 160 },
+    { "date": "2023-10-05", "name": "Day 5", "count": 145 }
+  ],
+  "machineDetails": [
+    { "id": "m1", "name": "CNC Mill A", "status": "Running", "output": 2500, "lastUpdated": "2023-10-05T10:00:00Z" },
+    { "id": "m2", "name": "Laser Cutter B", "status": "Idle", "output": 1800, "lastUpdated": "2023-10-05T09:30:00Z" },
+    { "id": "m3", "name": "Robotic Arm C", "status": "Error", "output": 500, "lastUpdated": "2023-10-04T17:00:00Z" },
+    { "id": "m4", "name": "Assembly Line D", "status": "Maintenance", "output": 3200, "lastUpdated": "2023-10-05T08:00:00Z" }
+  ],
+  "availableMachines": [
+    { "value": "all", "label": "All Machines" },
+    { "value": "m1", "label": "CNC Mill A" },
+    { "value": "m2", "label": "Laser Cutter B" },
+    { "value": "m3", "label": "Robotic Arm C" },
+    { "value": "m4", "label": "Assembly Line D" }
+  ]
+}

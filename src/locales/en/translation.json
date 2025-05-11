@@ -1,0 +1,15 @@
+{
+  "pageTitle": "Production Monitoring",
+  "filterSectionTitle": "Filters",
+  "filterMachineNameLabel": "Machine Name",
+  "filterDateRangeLabel": "Date Range",
+  "chartTitle": "Daily Production Count",
+  "tableTitle": "Machine Status Overview",
+  "tableHeaderMachineName": "Machine Name",
+  "tableHeaderStatus": "Status",
+  "tableHeaderOutput": "Output",
+  "tableHeaderLastUpdated": "Last Updated",
+  "loadingData": "Loading data...",
+  "errorData": "Error fetching data",
+  "language": "Language"
+}

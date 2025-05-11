@@ -1,0 +1,15 @@
+{
+  "pageTitle": "생산 모니터링",
+  "filterSectionTitle": "필터",
+  "filterMachineNameLabel": "기계 이름",
+  "filterDateRangeLabel": "날짜 범위",
+  "chartTitle": "일일 생산량",
+  "tableTitle": "기계 상태 개요",
+  "tableHeaderMachineName": "기계 이름",
+  "tableHeaderStatus": "상태",
+  "tableHeaderOutput": "생산량",
+  "tableHeaderLastUpdated": "최종 업데이트",
+  "loadingData": "데이터 로딩 중...",
+  "errorData": "데이터 가져오기 오류",
+  "language": "언어"
+}
